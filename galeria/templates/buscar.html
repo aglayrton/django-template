@@ -21,7 +21,6 @@
                     <ul class="cards__lista">
                         {% if cards %}
                         {% for galeria in cards %}
-
                         <li class="card">
                             <a href="{% url 'imagem' galeria.id %}">
                                 {% if galeria.foto == "" or  galeria.foto == null %}

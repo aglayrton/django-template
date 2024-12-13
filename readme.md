@@ -14,7 +14,7 @@
 14 - python manage.py runserver é para rodar no servidor
 15 - caso voce vá em setup e depois no arquivo settings.py, tem como mudar o idioma e o fuso horário, além de voce tirar a senha secreta dará erro (pode fazer)
 16 - dai basta instalar o python-dotenv e colocar a senha secreta la e apontar no settings.py
-17 - crie o arquivo.env e cole la o secret e tira as aspas7
+17 - crie o arquivo.env e cole la o secret e tira as aspas
 18 - importe o os no settings e também o load_dotenv para ele carregar as variáveis de ambiente(fica no env)
 19 - SECRET_KEY = str(os.getenv('SECRET_KEY')) ainda no settings
 20 - se eu colocar mais funcionalidade são chamados de app, dai basta usar o comando python manage.py startapp galeria (vai criar uma pasta com tudo dentro)
